@@ -1,0 +1,39 @@
+[vite] connecting...
+[vite] connected.
+Multiple GoTrueClient instances detected in the same browser context. It is not an error, but this should be avoided as it may produce undefined behavior when used concurrently under the same storage key.
+Auth state changed: INITIAL_SESSION undefined
+Cannot read properties of undefined (reading 'toFixed')
+Cannot read properties of undefined (reading 'toFixed')
+The above error occurred in the <Leaderboard> component:
+
+    at Leaderboard (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/src/pages/Leaderboard.tsx:22:43)
+    at RenderedRoute (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4069:5)
+    at Routes (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4508:5)
+    at Router (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4451:15)
+    at BrowserRouter (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:5196:5)
+    at Provider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/chunk-XSD2Y4RK.js?v=137500af:38:15)
+    at TooltipProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=137500af:63:5)
+    at AuthProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/src/context/AuthContext.tsx:15:32)
+    at QueryClientProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=137500af:2794:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+at Leaderboard (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/src/pages/Leaderboard.tsx:22:43)
+at RenderedRoute (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4069:5)
+at Routes (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4508:5)
+at Router (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:4451:15)
+at BrowserRouter (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/react-router-dom.js?v=137500af:5196:5)
+at Provider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/chunk-XSD2Y4RK.js?v=137500af:38:15)
+at TooltipProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=137500af:63:5)
+at AuthProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/src/context/AuthContext.tsx:15:32)
+at QueryClientProvider (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/node_modules/.vite/deps/@tanstack_react-query.js?v=137500af:2794:3)
+at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+at t.value (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://72371b25-fd02-497b-a68e-2aaed8d31d49-00-1nsa39pvaiev3.pike.repl
