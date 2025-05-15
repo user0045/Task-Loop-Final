@@ -73,7 +73,7 @@
 | `ratings`   | id, target_type, target_id, user_id, score, created_at | Polymorphic rating system          |
 | `attachments`| id, message_id, url, uploaded_at                       | Stored in Supabase Storage         |
 
-## API / Client Usage Examples
+## API / Client Usage Example
 
 ```ts
 // src/lib/supabaseClient.ts
